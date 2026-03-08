@@ -2,7 +2,7 @@
 # General / Backend (important for blur)
 # =================================================
 backend = "glx";          # or "xrender" — glx usually performs better with blur
-vsync = true;
+vsync = false;		  # xlibre already handles vsync by default, making this redundant. This is commented to ensure there isn't a change of both picom and XLibre trying to vsync at the same time.
 
 # If using a fork or recent picom with experimental backends support:
 # Run picom with:   picom --experimental-backends -b
