@@ -46,7 +46,7 @@ blur: {
     #method = "gaussian";       # alternative — usually slower
     #method = "box";            # fastest but ugly
     strength = 3;
-    size = 3;                  # blur radius (higher = more blur, more GPU use)
+    size = 1;                  # blur radius (higher = more blur, more GPU use)
     deviation = 5.0;            # only for gaussian
 
     # or for dual_kawase you can use strength instead (some forks)
