@@ -61,8 +61,9 @@ blur: {
 blur-background-exclude = [
     "window_type = 'dock'",
     "window_type = 'desktop'",
-    "class_g = 'firefox' && argb",   # example
-    "class_g = 'librewolf' && argb",   # example
+    "class_g = 'firefox'",	# example
+    "class_g = 'librewolf'",	# example
+    "class_g = 'slop'",		# maim program: removes background blur when taking screenshots
     "class_g = 'Rofi' && focused",   # don't blur focused rofi if you want    
 ];
 
